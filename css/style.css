@@ -589,6 +589,15 @@ button
   object-fit: cover;
 }
 
+@media screen and (max-width: 1000px) {
+  .bg-banner {
+    width: 100vw;
+    height: 85vw;
+    object-fit: cover;
+    margin-top: 20%;
+  }
+}
+
 .mil-button {
   cursor: pointer;
   display: -webkit-inline-box;
